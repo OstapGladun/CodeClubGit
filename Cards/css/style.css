@@ -1,0 +1,92 @@
+.container
+{
+    background-color: gray;
+}
+.content
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.carBlock
+{
+    background-image: url("../images/bmw.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 65%;
+    height: 420px;
+    margin: 1%;
+    color: white;
+    position: relative;
+}
+.contText
+{
+    position: absolute;
+    bottom: 0;
+}
+.proCar
+{
+    padding-left: 30px;
+}
+.titleCar
+{
+    padding-left: 30px;
+    text-transform: uppercase;
+    font-size: 30px;
+    max-width: 450px;
+}
+.card
+{
+    width: 31%;
+    margin: 1%;
+}
+.card-user
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 991px)
+{
+    .carBlock
+    {
+        height: 320px;
+    }
+}
+@media screen and (max-width: 767px)
+{
+    .carBlock
+    {
+        height: 210px;
+    }
+    .parCar
+    {
+        font-size: 14px;
+    }
+    .titleCar
+    {
+        font-size: 19px;
+    }
+    .card-title
+    {
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    .card-body
+    {
+        padding: 10px;
+        font-size: 11px;
+    }
+    .card-user
+    {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+        margin-bottom: 1px;
+    }
+    .card-body
+    {
+        padding: 1px 10px;
+    }
+}
